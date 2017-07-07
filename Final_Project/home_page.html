@@ -27,46 +27,73 @@
   <body style="background-color:#E5F7FA">
 </head>
 <body>
-  <nav class="w3-bar w3-black">
-    <a href="#chowbella" class="w3-button w3-bar-item" style="float: center;margin-top:200px;"><font size="10" color="75264F" style="font-family:Snell Roundhand, cursive"><b>Chow Bella</b></font></a>
-    <div class="btn-group" style="float: right;margin-right:100px;margin-top:20px;">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse Courses<span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="file:///Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Sweet.html">Sweet</a></li>
-          <li><a href="file:///Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Savory.html">Savory</a></li>
-        </ul>
-      </div></a>
-    <a href="#about" class="w3-button w3-bar-item" style="float: right;margin-right:20px;margin-top:20px;"><font size="4" color="75264F" style="font-family:FreeMono, monospace"><b>About</b></font></a>
-  </nav>
 
-  <div class="gallery">
+  <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top" style="background-color:#E5F7FA">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Chow Bella</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse Courses<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="Breakfast.html">Breakfast</a></li>
+                    <li><a href="Lunch.html">Lunch</a></li>
+                    <li><a href="Appetizers/Snacks.html">Appetizers/Snacks</a></li>
+                    <li><a href="Dessert.html">Dessert</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+<center><a href="#home_page.html" class="w3-button w3-bar-item" style="position: relative;margin-top:100px;"><font size="10" color="75264F" style="font-family:Snell Roundhand, cursive"><b>Chow Bella</b></font></a></center>
+
+  <div class="container">
+    <div class="row">
+  <div class="gallery" class="col-md-4">
     <a target="_blank" href="Lasagna_Recipe.html">
-      <img src="https://images-gmi-pmc.edge-generalmills.com/f87191f1-589e-4bdc-8662-50fdc23e3f59.jpg" alt="Lasagna" width="400px" height="400px">
+      <img src="https://images-gmi-pmc.edge-generalmills.com/f87191f1-589e-4bdc-8662-50fdc23e3f59.jpg" alt="Lasagna" width="296" height="280">
     </a>
     <div class="desc" style="background-color:#F9F9DF">Lasagna</div>
   </div>
 
-  <div class="gallery">
+  <div class="gallery" class="col-md-4">
     <a target="_blank" href="Kahlua_Cake_Recipe.html">
-      <img src="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/62/17/0/picUPQuad.jpg" alt="Kahlua Cake" width="600" height="400">
+      <img src="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/62/17/0/picUPQuad.jpg" alt="Kahlua Cake" width="296" height="280">
     </a>
     <div class="desc" style="background-color:#F9F9DF">Kahlua Cake</div>
   </div>
 
-  <div class="gallery">
+  <div class="gallery" class="col-md-4">
     <a target="_blank" href="Peanut_Butter_Blossom_Cookies_Recipe.html">
-      <img src="https://www.hersheys.com/Recipes/Images/Detail/5191_en-us_large.jpg" alt="Peanut Butter Blossom Cookies" width="600" height="400">
+      <img src="https://www.hersheys.com/Recipes/Images/Detail/5191_en-us_large.jpg" alt="Peanut Butter Blossom Cookies" width="296" height="280">
     </a>
     <div class="desc" style="background-color:#F9F9DF">Peanut Butter Blossom Cookies</div>
   </div>
 
-  <div class="gallery">
+  <div class="gallery" class="col-md-4">
     <a target="_blank" href="Shrimp_Crostini.html">
-      <img src="img_mountains.jpg" alt="Shrimp Crostini" width="600" height="400">
+      <img src="img_mountains.jpg" alt="Shrimp Crostini" width="296" height="280">
     </a>
     <div class="desc" style="background-color:#F9F9DF">Shrimp Crostini</div>
   </div>
+
 
 </body>
 </html>
