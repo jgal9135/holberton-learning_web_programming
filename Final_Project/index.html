@@ -29,69 +29,157 @@
 <body>
 
 
-<div class="container">
+
   <div style="position: relative">
-    <img src="http://static.wixstatic.com/media/d0f16d_2a74bb0f4f9d438b887101d51113d046~mv2_d_2500_1563_s_2.jpg" height="500" width="100%">
-    <center><div style="position: absolute;top:31%;left:38%;"><font size="10" color="white" style="font-family:Snell Roundhand, cursive"><b>Chow With the Gal</b></font>
-    <div style="position: absolute;"><font size="5" color="white" style="font-family:New Century Schoolbook, serif">Explore the depths of your tastebuds with a multitude of delicious recipes ranging from sweet to savory for all meals of the day!</font></center></div>
+    <img src="http://static.wixstatic.com/media/d0f16d_2a74bb0f4f9d438b887101d51113d046~mv2_d_2500_1563_s_2.jpg" height="700" width="100%">
+    <center><div style="position: absolute;top:33%;left:45%;"><font size="10" color="white" style="font-family:Snell Roundhand, cursive"><b>Chow With the Gal</b></font>
+    <div style="position: absolute;"><font size="6" color="white" style="font-family:New Century Schoolbook, serif">Explore the depths of your tastebuds with a multitude of delicious recipes ranging from sweet to savory for all meals of the day!</font></center></div>
   </div>
 </div>
 <p>
-<div class="container">
-  <table>
-    <colgroup>
-      <col span="2">
-    </colgroup>
-  <tr>
-    <th><button type="button">Breakfast</button></th>
-  </tr>
-  <tr>
-    <th><button type="button">Lunch</button></th>
-  </tr>
-  <tr>
-    <th><button type="button">Appetizers/Snacks</button></th>
-  </tr>
-  <tr>
-    <th><button type="button">Dinner</button></th>
-  </tr>
-  <tr>
-  <th><button type="button">Dessert</button></th>
-  </tr>
-</table>
+
+
+      <button onclick="myFunction()">Breakfast</button>
+
+<div id="myDIV">
+  <div class="gallery" class="col-sm-6 col-md-4">
+      <a target="_blank" href="Crepe_Recipe.html">
+        <img src="https://static1.squarespace.com/static/5845afdc725e257e3790c488/t/5848a4ea1b631b791d1ef57e/1481155827976/IMG_4431.jpg" alt="Crepe" width="296" height="280">
+      <div class="desc" style="background-color:#F9F9DF">Nutella Crepe</div>
+      </a>
+    </div>
 </div>
-</p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+<button onclick="myFunction()">Lunch</button>
+
+<div id="myDIV">
+<div class="gallery" class="col-sm-6 col-md-4">
+    <a target="_blank" href="Chicken_Apple_Salad_Sandwich.html">
+      <img src="http://www.tasteslovely.com/wp-content/uploads/2015/10/Fall-Chicken-Salad-with-tart-Granny-Smith-apples-sweet-dried-cranberries-and-crunch-toasted-pecans.-Serve-it-on-soft-whole-wheat-bread-or-as-a-lettuce-wrap.-Perfect-autumn-lunch-11-683x1024.jpg" alt="Chicken Apple Salad Sandwich" width="400" height="400">
+    <div class="desc" style="background-color:#F9F9DF">Chicken Apple Salad Sandwich</div>
+    </a>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+var x = document.getElementById('myDIV');
+if (x.style.display === 'none') {
+  x.style.display = 'block';
+} else {
+  x.style.display = 'none';
+}
+}
+</script>
+
+<button onclick="myFunction()">Appetizers</button>
+
+<div id="myDIV">
+<div class="gallery" class="col-sm-6 col-md-4">
+<a target="_blank" href="Peanut_Butter_Blossom_Cookies_Recipe.html">
+<img src="https://www.hersheys.com/Recipes/Images/Detail/5191_en-us_large.jpg" alt="Peanut Butter Blossom Cookies" width="296" height="280">
+<div class="desc" style="background-color:#F9F9DF">Peanut Butter Blossom Cookies</div>
+</a>
+</div>
+</div>
+
+<script>
+function myFunction() {
+var x = document.getElementById('myDIV');
+if (x.style.display === 'none') {
+  x.style.display = 'block';
+} else {
+  x.style.display = 'none';
+}
+}
+</script>
+
+<button onclick="myFunction()">Dinner</button>
+
+<div id="myDIV">
+  <div class="gallery" class="col-sm-6 col-md-4">
+    <a target="_blank" href="Lasagna_Recipe.html">
+      <img src="https://images-gmi-pmc.edge-generalmills.com/f87191f1-589e-4bdc-8662-50fdc23e3f59.jpg" alt="Lasagna" width="296" height="280">
+    <div class="desc" style="background-color:#F9F9DF">Lasagna</div>
+    </a>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+var x = document.getElementById('myDIV');
+if (x.style.display === 'none') {
+  x.style.display = 'block';
+} else {
+  x.style.display = 'none';
+}
+}
+</script>
+
+<button onclick="myFunction()">Dessert</button>
+
+<div id="myDIV">
+  <div class="gallery" class="col-sm-6 col-md-4">
+    <a target="_blank" href="Kahlua_Cake_Recipe.html">
+      <img src="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/62/17/0/picUPQuad.jpg" alt="Kahlua Cake" width="296" height="280">
+    <div class="desc" style="background-color:#F9F9DF">Kahlua Cake</div>
+    </a>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+var x = document.getElementById('myDIV');
+if (x.style.display === 'none') {
+  x.style.display = 'block';
+} else {
+  x.style.display = 'none';
+}
+}
+</script>
 
   <div class="container">
     <div class="row">
-  <div class="gallery" class="col-md-4">
+  <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="Lasagna_Recipe.html">
       <img src="https://images-gmi-pmc.edge-generalmills.com/f87191f1-589e-4bdc-8662-50fdc23e3f59.jpg" alt="Lasagna" width="296" height="280">
     <div class="desc" style="background-color:#F9F9DF">Lasagna</div>
     </a>
   </div>
 
-  <div class="gallery" class="col-md-4">
+  <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="Kahlua_Cake_Recipe.html">
       <img src="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/62/17/0/picUPQuad.jpg" alt="Kahlua Cake" width="296" height="280">
     <div class="desc" style="background-color:#F9F9DF">Kahlua Cake</div>
     </a>
   </div>
 
-  <div class="gallery" class="col-md-4">
+  <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="Peanut_Butter_Blossom_Cookies_Recipe.html">
       <img src="https://www.hersheys.com/Recipes/Images/Detail/5191_en-us_large.jpg" alt="Peanut Butter Blossom Cookies" width="296" height="280">
     <div class="desc" style="background-color:#F9F9DF">Peanut Butter Blossom Cookies</div>
     </a>
   </div>
 <p>
-  <div class="gallery" class="col-md-4">
+  <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="Shrimp_Crostini.html">
       <img src="img_mountains.jpg" alt="Shrimp Crostini" width="296" height="280">
     <div class="desc" style="background-color:#F9F9DF">Shrimp Crostini</div>
     </a>
   </div>
 
-  <div class="gallery" class="col-md-4">
+  <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="Mashed_Potatoes.html">
       <img src="img_mountains.jpg" alt="Mashed Potatoes" width="296" height="280">
     <div class="desc" style="background-color:#F9F9DF">Mashed Potatoes</div>
@@ -100,7 +188,7 @@
 
 <div class="container2">
   <div class="row2">
-    <div class="gallery" class="col-md-4">
+    <div class="gallery" class="col-sm-6 col-md-4">
       <a target="_blank" href="Chocolate_Chip_Cookies.html">
         <img src="img_mountains.jpg" alt="Chocolate Chip Cookies" width="296" height="280">
       <div class="desc" style="background-color:#F9F9DF">Chocolate Chip Cookies</div>
@@ -108,7 +196,7 @@
     </div>
 </p>
 <p>
-        <div class="gallery" class="col-md-4">
+        <div class="gallery" class="col-sm-6 col-md-4">
           <a target="_blank" href="Grasshopper_Pie.html">
             <img src="img_mountains.jpg" alt="Grasshopper Pie" width="296" height="280">
           <div class="desc" style="background-color:#F9F9DF">Grasshopper Pie</div>
@@ -116,7 +204,7 @@
         </div>
 
           <div class="row2">
-            <div class="gallery" class="col-md-4">
+            <div class="gallery" class="col-sm-6 col-md-4">
               <a target="_blank" href="Grasshopper_Pie.html">
                 <img src="img_mountains.jpg" alt="Grasshopper Pie" width="296" height="280">
               <div class="desc" style="background-color:#F9F9DF">Grasshopper Pie</div>
@@ -124,12 +212,13 @@
             </div>
 
           <div class="row2">
-            <div class="gallery" class="col-md-4">
+            <div class="gallery" class="col-sm-6 col-md-4">
               <a target="_blank" href="Grasshopper_Pie.html">
                 <img src="img_mountains.jpg" alt="Grasshopper Pie" width="296" height="280">
                   <div class="desc" style="background-color:#F9F9DF">Grasshopper Pie</div>
             </a>
         </div>
   </p>
+</div>
 </body>
 </html>
