@@ -43,19 +43,18 @@
 <p>
 
 <div class="container">
-<div class="Breakfast">
-<button onclick="myFunction()">Breakfast</button>
-
-<div id="myDIV">
+<button onclick="myFunction('Breakfast')">Breakfast</button>
+<div id="Breakfast">
+<div id="myBreakfast">
   <div class="gallery" class="col-sm-6 col-md-4">
-      <a target="_blank" href="/Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Recipes/Crepe_Recipe.html">
+      <a target="_blank" href="Crepe_Recipe.html">
         <img src="https://static1.squarespace.com/static/5845afdc725e257e3790c488/t/5848a4ea1b631b791d1ef57e/1481155827976/IMG_4431.jpg" alt="Crepe" width="296" height="280">
       <div class="desc" style="background-color:#F9F9DF">Nutella Crepe</div>
       </a>
     </div>
 </div>
 
-<div id="myDIV">
+<div id="myBreakfast">
   <div class="gallery" class="col-md-4">
     <a target="_blank" href="/Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Recipes/Monkey_Bread_Recipe.html">
       <img src="https://images-gmi-pmc.edge-generalmills.com/3c78f8b9-85d9-4584-bd96-7623a109674a.jpg" alt="Monkey Bread" width="400" height="400">
@@ -64,24 +63,13 @@
   </div>
 </div>
 
-<script>
-function myFunction() {
-    var x = document.getElementById('myDIV');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
 </div>
 </div>
 
 <div class="container">
-<div class="Lunch">
-<button onclick="myFunction()">Lunch</button>
-
-<div id="myDIV">
+<button onclick="myFunction('Lunch')">Lunch</button>
+<div id="Lunch">
+<div id="myLunch">
 <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="/Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Recipes/chicken_apple_salad.html">
       <img src="http://www.tasteslovely.com/wp-content/uploads/2015/10/Fall-Chicken-Salad-with-tart-Granny-Smith-apples-sweet-dried-cranberries-and-crunch-toasted-pecans.-Serve-it-on-soft-whole-wheat-bread-or-as-a-lettuce-wrap.-Perfect-autumn-lunch-11-683x1024.jpg" alt="Chicken Apple Salad Sandwich" width="400" height="400">
@@ -90,7 +78,7 @@ function myFunction() {
   </div>
 </div>
 
-<div id="myDIV">
+<div id="myLunch">
   <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="/Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Recipes/Spicy_BBQ_Shrimp.html">
       <img src="https://therecipecritic.com/wp-content/uploads/2016/05/spicylimeshrimp3-650x975.jpg" alt="Spicy BBQ Shrimp" width="296" height="280">
@@ -99,7 +87,7 @@ function myFunction() {
   </div>
 </div>
 
-<div id="myDIV">
+<div id="myLunch">
   <div class="gallery" class="col-md-4">
     <a target="_blank" href="/Users/summercamp/Documents/js/holberton-learning_web_programming/Final_Project/Recipes/chinese_chicken_salad.html">
       <img src="https://www.culinaryhill.com/wp-content/uploads/2013/09/Chinese-Chicken-Salad-Culinary-Hill-4-660x660.jpg" alt="Chinese Chicken Salad" width="400" height="400">
@@ -108,24 +96,13 @@ function myFunction() {
   </div>
 </div>
 
-<script>
-function myFunction() {
-var x = document.getElementById('myDIV');
-if (x.style.display === 'none') {
-  x.style.display = 'block';
-} else {
-  x.style.display = 'none';
-}
-}
-</script>
 </div>
 </div>
 
 <div class="container">
-<div class="Dinner">
-<button onclick="myFunction()">Dinner</button>
-
-<div id="myDIV">
+<button onclick="myFunction('Dinner')">Dinner</button>
+<div id="Dinner">
+<div id="myDinner">
   <div class="gallery" class="col-md-4">
     <a target="_blank" href="Beef_Burgundy_Recipe.html">
       <img src="https://images-gmi-pmc.edge-generalmills.com/3d51e9de-12c6-4335-b00f-548a27b3d0b4.jpg" alt="Beef Burgundy" width="400" height="400">
@@ -134,7 +111,7 @@ if (x.style.display === 'none') {
   </div>
 </div>
 
-<div id="myDIV">
+<div id="myDinner">
   <div class="gallery" class="col-md-4">
     <a target="_blank" href="Jambalaya_Recipe.html">
       <img src="https://www.gimmesomeoven.com/wp-content/uploads/2014/03/Jambalaya-11.jpg" alt="Jambalaya" width="400" height="400">
@@ -142,25 +119,13 @@ if (x.style.display === 'none') {
     </a>
   </div>
 </div>
-
-<script>
-function myFunction() {
-var x = document.getElementById('myDIV');
-if (x.style.display === 'none') {
-  x.style.display = 'block';
-} else {
-  x.style.display = 'none';
-}
-}
-</script>
 </div>
 </div>
 
 <div class="container">
-<div class="Dessert">
-<button onclick="myFunction()">Dessert</button>
-
-<div id="myDIV">
+<button onclick="myFunction('Dessert')">Dessert</button>
+<div id="Dessert">
+<div id="myDessert">
   <div class="gallery" class="col-sm-6 col-md-4">
     <a target="_blank" href="Kahlua_Cake_Recipe.html">
       <img src="http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/62/17/0/picUPQuad.jpg" alt="Kahlua Cake" width="296" height="280">
@@ -169,7 +134,7 @@ if (x.style.display === 'none') {
   </div>
 </div>
 
-<div id="myDIV">
+<div id="myDessert">
 <div class="gallery" class="col-sm-6 col-md-4">
 <a target="_blank" href="Peanut_Butter_Blossom_Cookies_Recipe.html">
 <img src="https://www.hersheys.com/Recipes/Images/Detail/5191_en-us_large.jpg" alt="Peanut Butter Blossom Cookies" width="296" height="280">
@@ -178,7 +143,7 @@ if (x.style.display === 'none') {
 </div>
 </div>
 
-<div id="myDIV">
+<div id="myDessert">
 <div class="gallery" class="col-sm-6 col-md-4">
 <a target="_blank" href="Cowboy_Cookies_Recipe.html">
 <img src="http://cf.fivehearthome.com/wp-content/uploads/2014/10/Cowboy-Cookies-by-Five-Heart-Home_700pxHorizPlate.jpg" alt="Cowboy Cookies" width="296" height="280">
@@ -187,16 +152,6 @@ if (x.style.display === 'none') {
 </div>
 </div>
 
-<script>
-function myFunction() {
-var x = document.getElementById('myDIV');
-if (x.style.display === 'none') {
-  x.style.display = 'block';
-} else {
-  x.style.display = 'none';
-}
-}
-</script>
 </div>
 </div>
 
@@ -230,4 +185,15 @@ if (x.style.display === 'none') {
 </center>
 
 </body>
+
+<script>
+function myFunction(meal) {
+var x = document.getElementById(meal);
+if (x.style.display === 'none') {
+  x.style.display = 'block';
+} else {
+  x.style.display = 'none';
+}
+}
+</script>
 </html>
